@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, intitial-scale = "1">
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300|Exo:200|Quicksand" rel="stylesheet">
+</head>
+<body>
+	<a href="javascript:" id="return-to-top">
+		<i class="fa fa-chevron-up" aria-hidden="true"></i>
+	</a>
+
+	<header>
+		<section id="top">
+			<div class="container">
+				<div class="line-divide"></div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="topNav">
+						<ul class="primary-nav">
+							<li><a href="#" class="active">Home</a></li>
+							<li><a href="#aboutDiv">About</a></li>
+							<li><a href="#projectSection">Projects</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<a href="#" class="secTop">Olay Gureje</a>
+						<br>
+						<a href="#" class="secTop">Computer Programmer</a>
+						<br>
+						<a href="https://github.com/OlayG">Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-primary" onclick="switchScenes()"> Switch Scene </button>
+			</div>
+		</section> <!-- end top-->
+
+		<section id="middle">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 secMiddle" id="canvasMiddle" style="height:300px;">
+						<canvas id="canvas" ></canvas>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--<section id="bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6"></div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<a class="secBottom" id="bottomText"> 
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam praesentium sit voluptates molestias dolorum ratione fugit aspernatur, hic quo! Vel voluptatum, repellat rerum quis aliquam blanditiis eum porro recusandae quidem?
+						</a>
+					</div>
+				</div>
+			</div>			
+		</section>  end bottom-->
+	</header> <!-- end header -->
+
+	<section id="mainContent">
+		<div class="container-fluid">
+			<div id="aboutDiv">
+				<br><br><br><br>
+			</div>
+			<div class="row" id="aboutRow">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="thumbnail img-responsive" id="myPic"></div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6" id="textAboutme" >
+					<a href="#" class="secTop" id="AboutMeHead">About Me</a>
+					<br>
+					<div class="message">
+						<a class="secBottom" id="bottomText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quam perferendis iusto ducimus saepe iure tenetur est voluptas eius nam consequuntur vero nulla, odio ratione, molestias natus eos reiciendis ut.</a>
+					</div>
+					<div class="columns">
+						<a class="col-lg-6 col-md-6 col-sm-6 secTop" id="aboutCol">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rerum reiciendis, iste consequuntur optio quo mollitia sed dolor officiis, quisquam quaerat est dolores labore, animi expedita aspernatur! Reiciendis, reprehenderit, pariatur.</a>
+						<a class="col-lg-6 col-md-6 col-sm-6 secTop" id="aboutCol">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis culpa enim suscipit, velit aut animi asperiores soluta. Ipsam iste tenetur expedita saepe quo quibusdam, error doloribus perspiciatis nam laborum, soluta.</a>
+					</div>
+				</div> 
+			</div>
+			<br><br><br><br>
+				
+			
+			<div class="row" id="projectSection">
+				<h1>Projects</h1>
+			</div>
+			<section class="pictures">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6" id="middlePics">
+						<div class="thumbnail img-responsive" id="pic1"></div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6" id="middlePics">
+						<div class="thumbnail img-responsive pull-right" id="pic2"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6" id="middlePics">
+						<div class="thumbnail img-responsive" id="pic3"></div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6" id="middlePics">
+						<div class="thumbnail img-responsive pull-right" id="pic4"></div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</section> <!-- end mainContent -->
+
+	<footer>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" id="footerTextIpad">
+				<a href="#" class="secTop" id="footerText">OlayG Enterprise</a>
+				<br>
+				<a href="#" class="secTop" id="footerText">All Rights Reserved</a>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<a href="#" class="secTop" id="footerText">Social Media</a>
+				<br>
+				<a href="#" class="secTop" id="footerText">All Rights Reserved</a>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<a href="#" class="secTop">OlayG Enterprise</a>
+				<br>
+				<a href="#" class="secTop">All Rights Reserved</a>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<a href="#" class="secTop pull-right" id="footerTextR">OlayG Enterprise</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="line-divide"></div>
+		</div>
+	</footer>
+
+
+	<!--<script src="Scripts/jquery-1.9.1.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+	<script src="js/bootstrap.min.js"></script>
+	<!--<script src="js/easeljs-NEXT.combined.js"></script>-->
+	<!--<script src="C:\Users\WeCanCodeIT\Desktop\Portfolio\js\preloadjs-NEXT.min.js"></script>
+	<script src="C:\Users\WeCanCodeIT\Desktop\Portfolio\js\easeljs-NEXT.combined.js"></script>	-->
+	<script id="scene" src="js/ballBounce.js"></script>
+	<script src="js/switching.js"></script>
+
+		<!--===== Scroll to Top ====-->
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+				$('#return-to-top').fadeIn(200);    // Fade in the arrow
+			} else {
+				$('#return-to-top').fadeOut(200);   // Else fade out the arrow
+			}
+		});
+		$('#return-to-top').click(function () {      // When arrow is clicked
+			$('body,html').animate({
+				scrollTop: 0                       // Scroll to top of body
+			}, 500);
+		});
+    </script>
+
+</body>
+</html>

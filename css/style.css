@@ -1,0 +1,259 @@
+/* --------------------------------------
+             Main Content
+   -------------------------------------- */
+body, header, a{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+    font-family: 'Quicksand', 'Exo', 'Alegreya Sans SC', sans-serif;
+    color: #999;
+    line-height: 23px;
+}
+body, html{
+    height: 100%;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+header{
+    margin-bottom: 20px;
+    height: 100% !important;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+section.pictures{
+    height: 100% !important;
+}
+a.secTop{
+    text-decoration: none;
+    pointer-events: none;
+    color: #999;
+}
+.secMiddle{
+    text-align: center;
+    height: 25px;
+    margin: 20px 0;
+}
+a.secBottom{
+    font-family: 'Quicksand', 'Exo', 'Alegreya Sans SC', sans-serif;
+    font-size: 25px !important;  
+    line-height: 30px;
+    text-decoration: none;
+    pointer-events: none;
+    color: #999;
+}
+#pic1{
+    background-image: url(http://www.axtongroup.com/images/asp/asp-dot-net-developer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 730px;
+    padding: 0;
+    margin: 0;
+}
+#pic2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Unity_5_logo.svg/200px-Unity_5_logo.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 730px;
+    padding: 0;
+    margin: 0;
+}
+#pic3{
+    background-image: url(https://riada.se/wp-content/uploads/2016/01/javadev.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 730px;
+    padding: 0;
+    margin: 0;
+}
+#pic4{
+    background-image: url(http://1.bp.blogspot.com/-u5dfSsMOMC0/UZO_5DC_W9I/AAAAAAAACM8/YCMn15HPzpE/s320/Studio_table.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 730px;
+    padding: 0;
+    margin: 0;
+}
+#middlePics{
+    padding: 0;
+    float: right;
+}
+#myPic{
+    background-image: url(http://client-gallery.imgix.net/images/drc/579a5eec0f89f35819f054c2/03a42c0a-5f53-4599-9cbf-4c0146b89713.jpg?fm=jpg&dpr=1&sharp=15&con=3&w=1500&ixlib=js-1.0.3&s=12f4e2597439ec397ffec268476e4538);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    width: 730px;
+    margin-left: 48px;
+}
+a.col-lg-6.secTop{
+    padding-left: 0;
+}
+.message{
+    margin-top: 20px;
+}
+#projectSection{
+    margin-top: 30px;
+    height: 100%;
+    position: relative;
+}
+#aboutRow{
+    margin-bottom: 20px;
+}
+#AboutMeHead{
+    font-size: 30px !important;
+}
+
+#aboutCol{
+    font-size: 16px !important;
+    font-weight: normal !important;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+#bottom{
+    position: absolute;
+    bottom: 0;
+}
+/* --------------------------------------
+            	   Top
+   -------------------------------------- */
+.line-divide {
+	height: 50px;
+	float: left;
+	display: block;
+	margin-right: 0%;
+	width: 8.33333%;
+	margin-left: 50%;
+	border-left: 1px solid #999
+}
+.line-divide:last-child {
+	margin-right: 0
+}
+div a{
+    font-size: 18px !important
+}
+ul.primary-nav{
+    list-style: none;
+    
+}
+#topNav{
+    padding-left: 40px;
+}
+#footerTextR{
+    padding-right: 50px;
+}
+footer{
+    margin-top: 120px;
+}
+footer .line-divide {
+	margin-top: 1em
+}
+#footerText{
+    padding-left: 35px;
+}
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    z-index: 999;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    canvas{
+        height: 220px;
+        width: 400px !important;
+    }
+    #footerText{
+        padding: 0px
+    }
+    #myPic{
+        margin-left: 0px;
+    }
+    #pic1, #pic2, #pic3, #pic4{
+    width: 395px !important;
+    height: 600px;
+    float: none;
+    }
+    #middlePics{
+        padding-right: 15px;
+    }
+    #textAboutme{
+        padding-left: 3 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    canvas{
+        height: 220px;
+        width: 600px;
+    }
+    #footerText{
+        padding: 0px
+    }
+    #myPic{
+        margin-left: 15px;
+    }
+    #pic1, #pic2, #pic3, #pic4{
+    width: 355px !important;
+    height: 600px;
+    }
+    #middlePics{
+        padding-right: 0px;
+    }
+    #footerTextIpad{
+        padding-left: 30px;
+    }
+}
