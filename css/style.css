@@ -59,7 +59,7 @@ a.secBottom{
     margin: 0;
 }
 #pic1:hover{
-    background-image: url(/images/dotNetExample.png);
+    background-image: url(file:///C:/Users/WeCanCodeIT/Desktop/Portfolio/images/dotNetExample.png);
 }
 #pic2{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Unity_5_logo.svg/200px-Unity_5_logo.svg.png);
@@ -85,7 +85,7 @@ a.secBottom{
     margin: 0;
 }
 #pic3:hover{
-    background-image: url();
+    background-image: url(file:///C:/Users/WeCanCodeIT/Desktop/Portfolio/images/AndroidsStudioExample.png);
 }
 #pic4{
     background-image: url(http://1.bp.blogspot.com/-u5dfSsMOMC0/UZO_5DC_W9I/AAAAAAAACM8/YCMn15HPzpE/s320/Studio_table.png);
@@ -98,7 +98,7 @@ a.secBottom{
     margin: 0;
 }
 #pic4:hover{
-    background-image: url();
+    background-image: url(file:///C:/Users/WeCanCodeIT/Desktop/Portfolio/images/JavaExample.png);
 }
 #middlePics{
     padding: 0;
