@@ -58,6 +58,9 @@ a.secBottom{
     padding: 0;
     margin: 0;
 }
+#pic1:hover{
+    background-image: url(file:///C:/Users/WeCanCodeIT/Desktop/Portfolio/images/unity5Example.png);
+}
 #pic2{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Unity_5_logo.svg/200px-Unity_5_logo.svg.png);
     background-size: contain;
@@ -67,6 +70,9 @@ a.secBottom{
     width: 730px;
     padding: 0;
     margin: 0;
+}
+#pic2:hover{
+    background-image: url(file:///C:/Users/WeCanCodeIT/Desktop/Portfolio/images/dotNetExample.png);
 }
 #pic3{
     background-image: url(https://riada.se/wp-content/uploads/2016/01/javadev.jpg);
@@ -78,6 +84,9 @@ a.secBottom{
     padding: 0;
     margin: 0;
 }
+#pic3:hover{
+    background-image: url();
+}
 #pic4{
     background-image: url(http://1.bp.blogspot.com/-u5dfSsMOMC0/UZO_5DC_W9I/AAAAAAAACM8/YCMn15HPzpE/s320/Studio_table.png);
     background-size: contain;
@@ -87,6 +96,9 @@ a.secBottom{
     width: 730px;
     padding: 0;
     margin: 0;
+}
+#pic4:hover{
+    background-image: url();
 }
 #middlePics{
     padding: 0;
