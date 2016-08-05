@@ -72,7 +72,7 @@ a.secBottom{
     margin: 0;
 }
 #pic2:hover{
-    background-image: url(images/unity5Example.png);
+    background-image: url(file:///C:/Users/WeCanCodeIT/Desktop/Portfolio/images/unity5Example.png);
 }
 #pic3{
     background-image: url(https://riada.se/wp-content/uploads/2016/01/javadev.jpg);
